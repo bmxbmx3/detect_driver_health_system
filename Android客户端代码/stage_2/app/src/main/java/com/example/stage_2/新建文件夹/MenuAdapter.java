@@ -1,10 +1,8 @@
 package com.example.stage_2;
 
-import android.app.Activity;
+
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,8 +16,6 @@ import java.util.List;
 public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder>{
     private Intent intent;
     private String[] menu_name_list;
-    private SharedPreferences pref;
-    private SharedPreferences.Editor editor;
 
     static class ViewHolder extends RecyclerView.ViewHolder{
         View menu_view;
@@ -46,22 +42,12 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder>{
           @Override
           public void onClick(View v) {
               int position=holder.getAdapterPosition();
-              Context context=holder.menu_view.getContext();//获取菜单页面
               switch (position){
                   case 0:
-                      intent =  new Intent(context, ContactPeopleActivity.class);
-                      context.startActivity(intent);
-                      break;
-                  case 1:
-                      pref= PreferenceManager.getDefaultSharedPreferences(context);
-                      editor=pref.edit();
-                      //清空用户状态
-                      editor.putString("user","");
-                      editor.apply();
-                      intent =  new Intent(context, IdentifyActivity.class);
-                      context.startActivity(intent);
+                      intent =  new Intent(holder.menu_view.getContext(), ContactPeopleActivity.class);
                       break;
               }
+              holder.menu_view.getContext().startActivity(intent);
           }
       });
       return holder;
