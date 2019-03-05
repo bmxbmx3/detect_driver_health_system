@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">车载健康监测</string>
+    <string name="heartbeat">heartbeat</string>
+    <string name="body_temperature">body_temperature</string>
+</resources>
