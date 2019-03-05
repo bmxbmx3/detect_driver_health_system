@@ -3,7 +3,7 @@
 
 ## 程序运行截图  
 ### 主页面  
-![image](https://github.com/bmxbmx3/Detect_Driver-s_Health_System/blob/master/Android%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BB%A3%E7%A0%81/%E5%AE%89%E5%8D%93%E7%95%8C%E9%9D%A2%E6%88%AA%E5%9B%BE/%E4%B8%BB%E9%A1%B5%E9%9D%A2.jpg)  
+![image](https://github.com/bmxbmx3/Detect_Driver-s_Health_System/blob/master/Android%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BB%A3%E7%A0%81/%E5%AE%89%E5%8D%93%E7%95%8C%E9%9D%A2%E6%88%AA%E5%9B%BE/%E4%B8%BB%E9%A1%B5%E9%9D%A2.jpg){:height="50%" width="50%"}
 
 ### 引导页面
 ![image](https://github.com/bmxbmx3/Detect_Driver-s_Health_System/blob/master/Android%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BB%A3%E7%A0%81/%E5%AE%89%E5%8D%93%E7%95%8C%E9%9D%A2%E6%88%AA%E5%9B%BE/%E5%BC%95%E5%AF%BC%E9%A1%B5%E9%9D%A2.jpg)
